@@ -1,0 +1,169 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+body {
+  font-family: 'Francois One', sans-serif;
+  color: white;
+}
+
+h4.title-name1 {
+  color: #FF99FF;
+  font-size: 1.7rem;
+  font-family: 'Kaushan Script', cursive;
+  margin-bottom: 0px;
+}
+
+.btn-info {
+  padding: 0px 0px;
+}
+
+.btn-default {
+  background: rgba(177,241,21,0.7);
+  border-color: rgb(34,34,34);
+  &:hover {
+    background-color: rgb(177,241,21);
+    border-color: rgba(32,32,32,0.7);
+  }
+}
+
+/* mpd */
+
+.mpd {
+  background: rgb(78,81,85);
+}
+
+.jumbotron {
+  height: 70%;
+  min-height: 400px;
+  background:url(http://talesoftheroad.direct.gov.uk/images/bg_main.jpg);
+  background-size: cover;
+  background-position: center top;
+  color: white;
+  text-align: center;
+}
+
+.jumbotron a, .jumbotron a:hover, .jumbotron a:active, .jumbotron a:visited {
+  color: #FFFFFF;
+}
+
+.jumbotron h1 {
+  font-size: 70px;
+  color: rgba(177,241,21,0.9);
+}
+
+
+.containerStandard {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.columnItem {
+  padding-bottom: 40px;
+}
+
+
+.quote {
+  color: #323232;
+  font-style: italic;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.screenshot {
+  color: white;
+  padding: 0px;
+  width: 100%;
+  background-color: rgb(50,50,50);
+}
+
+.screen {
+  padding-top: 30px;
+  padding-right: 110px;
+  padding-bottom: 0px;
+  text-align: right;
+  overflow:hidden;
+}
+
+.screenBlurb {
+  padding-top: 12px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  text-align: left;
+}
+
+.screenBlurb p {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+
+.platform {
+  color: white;
+  padding-top:0px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 100%;
+  background-color: #323232;   
+}
+
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent; 
+  border-top: 30px solid rgb(78,81,85);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  margin-bottom: 0px;
+  padding: 11px; 
+}
+
+.beta-p {
+  font-size: 1.5rem;
+}
+
+.green {
+  color: rgb(177,241,21);
+}
+
+.orange {
+  color: rgb(250,52,13);
+}
+
+.animated {
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  box-animation-duration: 3s;
+}
+
+.animated.bounceInDown {
+  -webkit-animation-duration: 8s;
+  -moz-animation-duration: 8s;
+}
+
+.animated.flip {
+  -webkit-animation-delay: 7s;
+  -moz-animation-delay: 7s;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+}
+
+.animated.zoomIn {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;  
+}
+
+#lightspeed2 {
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+}
+
