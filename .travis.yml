@@ -6,5 +6,5 @@ env:
 script: 
   - RAILS_ENV=test bundle exec rake db:migrate --trace
 before_script:
-  - sqlite3 -e 'create database my_app_test'
+  - sqlite -e 'create database my_app_test'
 bundler_args: --binstubs=./bundler_stubs
